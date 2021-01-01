@@ -1,0 +1,8 @@
+:root {
+  --timeline-container-background-color: var(--color-scale-gray-5);
+  --timeline-container-border-color: var(--color-scale-gray-4);
+}
+.timeline-container {
+  background-color: var(--timeline-container-background-color);
+  border-top: var(--container-border-width) solid var(--timeline-container-border-color);
+}

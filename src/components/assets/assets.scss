@@ -1,0 +1,8 @@
+:root {
+  --assets-container-background-color: var(--color-scale-gray-5);
+  --assets-container-border-color: var(--color-scale-gray-4);
+}
+.assets-container {
+  background-color: var(--assets-container-background-color);
+  border-right: var(--container-border-width) solid var(--assets-container-border-color);
+}

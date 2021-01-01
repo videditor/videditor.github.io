@@ -1,0 +1,27 @@
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 5.5rem 3fr 2fr;
+}
+
+.navbar-container {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.assets-container {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.video-container {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.timeline-container {
+  grid-column: 1 / -1;
+  grid-row: 3;
+}

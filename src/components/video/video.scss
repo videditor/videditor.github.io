@@ -1,0 +1,8 @@
+:root {
+  --video-container-background-color: var(--color-scale-gray-5);
+  --video-container-border-color: var(--color-scale-gray-4);
+}
+.video-container {
+  background-color: var(--video-container-background-color);
+  border-right: var(--container-border-width) solid var(--video-container-border-color);
+}
